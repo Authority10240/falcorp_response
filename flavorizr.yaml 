@@ -1,0 +1,35 @@
+flavors:
+  dev:
+    app:
+      name: "FalcorpDev"
+
+    android:
+      applicationId: "com.example.falcorp_app_dev"
+    ios:
+      bundleId: "com.example.falcorp_app_dev"
+    macos:
+      bundleId: "com.example.falcorp_app_dev"
+
+
+  uat:
+    app:
+      name: "FalcorpUAT"
+
+    android:
+      applicationId: "com.example.falcorp_app_uat"
+    ios:
+      bundleId: "com.example.falcorp_app_uat"
+    macos:
+      bundleId: "com.example.falcorp_app_uat"
+
+
+  prod:
+    app:
+      name: "FalcorpProd"
+
+    android:
+      applicationId: "com.example.falcorp_app_prod"
+    ios:
+      bundleId: "com.example.falcorp_app_prod"
+    macos:
+      bundleId: "com.example.falcorp_app_prod"
